@@ -1,3 +1,3 @@
 # Practical-JavaScript-Todo-list
 
-https://github.com/brian-cooney/Practical-JavaScript-Todo-list
+http://www.briancooney.co.uk/Practical-JavaScript-Todo-list/
