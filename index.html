@@ -5,50 +5,34 @@
     </head>
     <body> 
         <header class="bg-white black-80 tc pv4 avenir">
-        <a href="" class="bg-black-80 ba b--black dib pa3 w2 h2 br-100">
-        <svg class="white" data-icon="skull" viewBox="0 0 32 32" style="fill:currentcolor"><title>skull icon</title><path d="M16 0 C6 0 2 4 2 14 L2 22 L6 24 L6 30 L26 30 L26 24 L30 22 L30 14 C30 4 26 0 16 0 M9 12 A4.5 4.5 0 0 1 9 21 A4.5 4.5 0 0 1 9 12 M23 12 A4.5 4.5 0 0 1 23 21 A4.5 4.5 0 0 1 23 12"></path></svg>
-        </a>
-         <h1 class="mt2 mb0 baskerville i fw1 f1">Todo List</h1>
-        <h2 class="mt2 mb0 f6 fw4 ttu tracked">Made with ES5 JavaScript</h2>
+          <a href="" class="bg-black-80 ba b--black dib pa3 w2 h2 br-100">
+            <svg class="white" data-icon="skull" viewBox="0 0 32 32" style="fill:currentcolor"><title>skull icon</title><path d="M16 0 C6 0 2 4 2 14 L2 22 L6 24 L6 30 L26 30 L26 24 L30 22 L30 14 C30 4 26 0 16 0 M9 12 A4.5 4.5 0 0 1 9 21 A4.5 4.5 0 0 1 9 12 M23 12 A4.5 4.5 0 0 1 23 21 A4.5 4.5 0 0 1 23 12"></path></svg>
+          </a>
+          <h1 class="mt2 mb0 baskerville i fw1 f1">Todo List</h1>
+          <h2 class="mt2 mb0 f6 fw4 ttu tracked">Made with ES5 JavaScript</h2>
     <nav class="bt bb tc mw7 center mt4">
         
-        <div class="ph3">
-  <h1 class="f6 fw6 ttu tracked">Basic pill</h1>
-  <a class="f6 link dim br-pill ph3 pv2 mb2 dib white bg-black" onclick="handlers.addTodo()" href="#0">Add</a> 
-    <input id="addTodoInputText" class="input-reset ba b--black-20 pa2 mb2 db w-100" type="text" aria-describedby="name-desc">
+  
+    <div class="ph3">
+       <a class="f6 link dim br-pill ph3 pv2 mb2 dib white bg-black" onclick="handlers.addTodo()" href="#0">Add</a> 
+            <input id="addTodoInputText" class="input-reset ba b--black-20 pa2 mb2 db w-100" type="text" aria-describedby="name-desc">
    
-         
-</div>
+       <a class="f6 link dim br-pill ph3 pv2 mb2 dib white bg-black" onclick="handlers.changeTodo()" href="#0">Change Todo</a> 
+            <input id="changeTodoInputPosition" class="input-reset ba b--black-20 pa2 mb2 db w-100" type="number" aria-describedby="name-desc">
+            <input id="changeTodoInputText" class="input-reset ba b--black-20 pa2 mb2 db w-100" type="text" aria-describedby="name-desc">
+            
+       <a class="f6 link dim br-pill ph3 pv2 mb2 dib white bg-black" onclick="handlers.toggleCompleted()" href="#0">Toggle Completed</a> 
+            <input id="toggleCompletedInputPosition" class="input-reset ba b--black-20 pa2 mb2 db w-100" type="text" aria-describedby="name-desc">
+            
+       <a class="f6 link dim br-pill ph3 pv2 mb2 dib white bg-black" onclick="handlers.toggleAll()" href="#0">Toggle All</a> 
+            <input id="addTodoInputText" class="input-reset ba b--black-20 pa2 mb2 db w-100" type="text" aria-describedby="name-desc">
         
+    </div>
         
-        <div>
-            <button onclick="handlers.addTodo()">Add</button>
-            <input id="addTodoInputText" type="text">
-        </div>
-
-        <div>
-            <button onclick="handlers.changeTodo()">Change Todo</button>
-            <input id="changeTodoInputPosition" type="number">
-            <input id="changeTodoInputText" type="text">
-        </div>
-
-        <div>
-            <button onclick="handlers.toggleCompleted()">Toggle Completed</button>
-            <input id="toggleCompletedInputPosition" type="number">
-        </div>
-
-        <div>
-            <button onclick="handlers.toggleAll()">Toggle All</button>
-        </div>
-
-        <ul>
-        </ul>
-
   </nav>
 </header>
         
-        <footer class="pv4 ph3 ph5-ns tc">
-
+ <footer class="pv4 ph3 ph5-ns tc">
   <a class="link dim gray dib h2 w2 br-100 mr3 pa2 bg-near-white ba b--black-10" href="https://twitter.com/bcooneydub" title="">
     <svg data-icon="twitter" viewBox="0 0 32 32" style="fill:currentcolor">
       <title>twitter icon</title>
@@ -61,7 +45,6 @@
       <path d="M0 18 C0 12 3 10 3 9 C2.5 7 2.5 4 3 3 C6 3 9 5 10 6 C12 5 14 5 16 5 C18 5 20 5 22 6 C23 5 26 3 29 3 C29.5 4 29.5 7 29 9 C29 10 32 12 32 18 C32 25 30 30 16 30 C2 30 0 25 0 18 M3 20 C3 24 4 28 16 28 C28 28 29 24 29 20 C29 16 28 14 16 14 C4 14 3 16 3 20 M8 21 A1.5 2.5 0 0 0 13 21 A1.5 2.5 0 0 0 8 21 M24 21 A1.5 2.5 0 0 0 19 21 A1.5 2.5 0 0 0 24 21 z"></path>
     </svg>
   </a>
- 
 </footer>
 
 
