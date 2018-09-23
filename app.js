@@ -1,7 +1,3 @@
-
-
-
-
 var todoList = {
   todos: [],
   addTodo: function(todoText) {
